@@ -3,13 +3,9 @@ import { useState } from "react";
 import { ReactDOM } from "react";
 import { Link } from "react-router-dom";
 
-<<<<<<< HEAD
 
-function Navbar () {
-
-=======
 function Navbar() {
->>>>>>> e0d35cf3749aed8a64f2dfd1de42c2949016371f
+
   const [active, setActive] = React.useState(false);
   const ToggleActive = () => {
     setActive((prev) => !prev);
