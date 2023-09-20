@@ -1,0 +1,226 @@
+div.faqsPage div.lineImg {
+    position: relative;
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+div.faqsPage div.lineImg>img {
+    width: 100%;
+    height: 60dvh;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+}
+
+div.faqsPage div.lineImg div.hero {
+    margin: auto;
+    width: 100%;
+}
+
+div.faqsPage div.lineImg div.hero div.text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+div.faqsPage div.lineImg div.hero div.text h3,
+div.faqsPage div.questions div.headerSec h3 {
+    color: #3b71fe;
+    font-size: 23px;
+}
+
+div.faqsPage div.lineImg div.hero div.text h2,
+div.faqsPage div.questions div.headerSec h2 {
+    font-size: 35px;
+    color: #0e0e2c;
+}
+
+div.faqsPage div.lineImg div.hero form {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+div.faqsPage div.lineImg div.hero form div {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 33%;
+    gap: 10px;
+}
+
+div.faqsPage div.lineImg div.hero form div p {
+    color: #0e0e2c !important;
+    font-weight: 700;
+}
+
+div.faqsPage div.lineImg div.hero form div input,
+div.faqsPage div.lineImg div.hero form div textarea {
+    padding: 0px 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #767676;
+    outline: none;
+    resize: none;
+}
+
+div.faqsPage div.lineImg div.hero form div textarea {
+    padding: 10px;
+    height: 150px;
+}
+
+div.faqsPage div.lineImg div.hero form button {
+    width: 10%;
+    margin: auto;
+    color: white;
+    border: none;
+    padding: 15px;
+    background-color: #3b71fe;
+    width: 200px;
+    border-radius: 5px;
+}
+
+div.faqsPage div.lineImg div.hero form button img {
+    width: 6px;
+    margin-left: 5px;
+}
+
+div.faqsPage div.mainfaqs div.questions {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+div.faqsPage div.mainfaqs {
+    padding: 70px 0px;
+}
+
+div.faqsPage div.mainfaqs div.questions div {
+    width: 50%;
+}
+
+div.faqsPage div.mainfaqs div.questions div.headerSec {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div.faqsPage div.mainfaqs div.questions div.headerSec p {
+    width: 80%;
+    line-height: 25px;
+}
+
+div.faqsPage div.mainfaqs div.questions div.questionSec {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: end;
+}
+
+div.faqsPage div.mainfaqs div.questions div.questionSec div.toggle {
+    width: 90%;
+    border: 2px solid #3b71fe;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+div.faqsPage div.mainfaqs div.questions div.questionSec div.toggle div.main {
+    display: flex;
+    font-size: 15px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+div.faqsPage div.mainfaqs div.questions div.questionSec div.toggle div.main img {
+    cursor: pointer;
+}
+
+div.faqsPage div.mainfaqs div.questions div.questionSec div.toggle div.main p {
+    color: #0e0e2c;
+}
+
+div.faqsPage div.mainfaqs div.questions div.questionSec div.toggle div.drop {
+    margin-top: 15px;
+    width: 90%;
+    font-size: 15px;
+    line-height: 24px;
+    display: none;
+}
+
+div.faqsPage div.mainfaqs div.questions div.questionSec div.toggle div.drop.open {
+    display: block;
+}
+
+div.faqsPage div.mainfaqs div.questions div.questionSec div.toggle div.drop.close {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    div.faqsPage div.lineImg div.hero form div {
+        width: 50%;
+    }
+
+    div.faqsPage div.mainfaqs {
+        padding: 120px 0px;
+    }
+
+    div.faqsPage div.questions div.headerSec h2 {
+        font-size: 20px;
+    }
+
+    div.faqsPage div.mainfaqs div.questions div.headerSec p {
+        font-size: 15px;
+    }
+
+    div.faqsPage div.mainfaqs div.questions div.questionSec div.toggle div.main p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    div.faqsPage {
+        padding: 0px 10px;
+    }
+
+    div.faqsPage div.lineImg div.hero div.text {
+        text-align: left;
+    }
+
+    div.faqsPage div.lineImg {
+        margin-bottom: 0px;
+    }
+
+    div.faqsPage div.lineImg>img {
+        display: none;
+    }
+
+    div.faqsPage div.mainfaqs {
+        padding: 20px 0px 30px;
+    }
+
+    div.faqsPage div.lineImg div.hero form div {
+        width: 100%;
+    }
+
+    div.faqsPage div.mainfaqs div.questions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    div.faqsPage div.mainfaqs div.questions div {
+        width: 100%;
+    }
+
+    div.faqsPage div.mainfaqs div.questions div.questionSec {
+        align-items: start;
+        margin-top: 30px;
+    }
+}

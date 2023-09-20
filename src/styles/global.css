@@ -1,0 +1,14 @@
+/* Configuration */
+@import url(./config.css);
+
+/* styles imports */
+@import url(./navbar.css);
+@import url(./footer.css);
+@import url(./homePage.css);
+@import url(./ourProjectPage.css);
+@import url(./faqsPage.css);
+
+div.wrapper {
+  max-width: 1600px;
+  margin: auto;
+}

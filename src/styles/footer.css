@@ -1,0 +1,75 @@
+div.footer {
+  width: 100%;
+  padding: 40px 0px;
+  background-color: #a0a4ab1a;
+}
+
+div.footer div.footer-item {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div.footer div.footer-item div.text {
+  width: 40%;
+}
+
+div.footer div.footer-item div.text p {
+  width: 80%;
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 24px;
+}
+
+div.footer div.footer-item div.about ul,
+div.footer div.footer-item div.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 18px;
+}
+
+div.footer div.footer-item div.social div.media {
+  display: flex;
+  gap: 13px;
+  margin-top: 20px;
+}
+
+div.footer div.footer-item div.social div.media a img {
+  width: 20px;
+}
+
+div.footer div.footer-item div.social div.media a:nth-child(1) img {
+  width: 13px !important;
+}
+
+div.footer-container div.copyright {
+  width: 100%;
+  height: 10dvh;
+  padding: 20px;
+  background-color: #0e0e2c;
+}
+
+div.footer-container div.copyright p {
+  color: white;
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 560px) {
+  div.footer div.footer-item {
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+  }
+
+  div.footer div.footer-item div.text,
+  div.footer div.footer-item div.text p {
+    width: 100%;
+  }
+
+  div.footer-container div.copyright p {
+    text-align: center;
+    margin: 0;
+  }
+}

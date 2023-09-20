@@ -1,0 +1,285 @@
+div.projectPage {
+    padding: 30px 120px;
+}
+
+div.projectPage>div.hero-section>div.text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div.projectPage div.hero-section h3,
+div.projectPage div.projectTable div.project div.info h3,
+div.projectPage div.lingual>h3 {
+    font-size: 23px;
+    color: #3B71FE;
+    margin-top: 20px;
+}
+
+div.projectPage div.hero-section h2,
+div.projectPage div.projectTable div.Indiproject div.info h2,
+div.projectPage div.lingual div.linHeader h2 {
+    font-size: 30px;
+}
+
+div.projectPage div.hero-section>div.text>p {
+    width: 45%;
+    margin: auto;
+    line-height: 25px;
+}
+
+div.projectPage div.hero-section div.work {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+div.projectPage div.hero-section div.work div.individual {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div.projectPage div.hero-section div.work div.individual p {
+    color: #3B71FE;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+div.projectPage div.hero-section div.work div.individual h2 {
+    font-size: 25px;
+}
+
+div.projectPage button {
+    border: none;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+div.projectPage div.hero-section button,
+div.projectPage div.lingual>button {
+    display: flex;
+    padding: 15px 50px;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+    background-color: #3B71FE;
+}
+
+div.projectPage div.projectTable {
+    margin-top: 70px;
+}
+
+div.projectPage div.projectTable div.Indiproject {
+    margin-top: 100px;
+    width: 100%;
+}
+
+div.projectPage div.projectTable div.flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.projectPage div.projectTable div.Indiproject div.flex div {
+    width: 50%;
+}
+
+div.projectPage div.projectTable div.Indiproject div.flex div.info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+div.projectPage div.projectTable div.Indiproject div.info h2 {
+    width: 80%;
+}
+
+div.projectPage div.projectTable div.Indiproject div.info p {
+    width: 65%;
+    line-height: 25px;
+}
+
+div.projectPage div.projectTable div.project>button,
+div.projectPage div.projectTable>button {
+    width: 190px;
+    padding: 15px 0px;
+    border: 2px solid #3B71FE;
+    background-color: transparent;
+    color: #3B71FE;
+    font-size: 15px;
+}
+
+div.projectPage div.projectTable div.Indiproject>button img,
+div.projectPage div.projectTable>button img {
+    width: 6px;
+    margin-left: 10px;
+}
+
+div.projectPage div.projectTable div.Indiproject div.img img {
+    height: 60dvh;
+    width: 100%;
+}
+
+div.projectPage div.projectTable div#reverse {
+    flex-direction: row-reverse;
+}
+
+div.projectPage div.projectTable>button {
+    margin: auto;
+    display: flex;
+    padding: 15px 30px;
+    width: 250px;
+    margin-top: 70px;
+}
+
+div.projectPage div.projectTable>button img {
+    margin-top: 4px;
+}
+
+div.projectPage div.lingual {
+    margin-top: 150px;
+    width: 100%;
+}
+
+div.projectPage div.display {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+div.projectPage div.lingual div.display div {
+    width: 50%;
+}
+
+div.projectPage div.lingual div.display div.linHeader h2 {
+    width: 70%;
+    line-height: 50px;
+}
+
+div.projectPage div.lingual div.display div.linText p {
+    width: 70%;
+    line-height: 30px;
+}
+
+div.projectPage div.lingual>button {
+    margin-top: 50px;
+}
+
+div.projectPage div.lingual {
+    margin-bottom: 100px;
+}
+
+div.projectPage div.projectTable div.Indiproject>button {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-top: -50px;
+    color: #3B71FE;
+    background-color: transparent;
+    border: 2px solid #3B71FE;
+}
+
+@media screen and (max-width: 768px) {
+    div.projectPage div.hero-section div.work {
+        width: 100%;
+    }
+
+    div.projectPage div.projectTable div.flex {
+        flex-direction: column;
+    }
+
+    div.projectPage div.projectTable div.Indiproject div.flex div.info {
+        width: 100%;
+    }
+
+    div.projectPage div.projectTable div.Indiproject div.img img {
+        width: 430px;
+        margin-top: 20px;
+    }
+
+    div.projectPage div.projectTable div.Indiproject>button {
+    margin: auto;
+        margin-top: 15px;
+
+    }
+
+    div.projectPage div.projectTable div.Indiproject>button img {
+        margin-top: 4px;
+    }
+
+    div.projectPage div.display {
+        flex-direction: column;
+    }
+
+    div.projectPage div.lingual div.display div {
+        width: 100%;
+    }
+
+    div.projectPage div.lingual div.display div.linText {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    div.projectPage p {
+        text-align: left;
+    }
+
+    div.projectPage {
+        padding: 10px;
+    }
+
+    div.projectPage>div.hero-section>div.text {
+        text-align: left;
+    }
+
+    div.projectPage div.hero-section>div.text>p {
+        width: 100%;
+    }
+
+    div.projectPage div.hero-section div.work div.individual {
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    div.projectPage div.hero-section button,
+    div.projectPage div.lingual>button {
+        width: 320px;
+        justify-content: center;
+    }
+
+    div.projectPage div.hero-section h3,
+    div.projectPage div.projectTable div.Indiproject div.info h3,
+    div.projectPage div.lingual>h3 {
+        font-size: 18px;
+    }
+
+    div.projectPage div.projectTable div.Indiproject div.info h2 {
+        width: 100%;
+        font-size: 23px;
+    }
+
+    div.projectPage div.projectTable div.Indiproject div.info p {
+        width: 100%;
+    }
+
+    div.projectPage div.projectTable div.Indiproject div.img img {
+        width: 330px;
+    }
+
+    div.projectPage div.lingual div.display div.linHeader h2 {
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    div.projectPage div.lingual div.display div.linText p {
+        width: 100%;
+    }
+}
